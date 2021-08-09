@@ -1,0 +1,167 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-size: 14px;
+}
+
+.header > .banner {
+    height: 44px;
+    width: 100%;
+}
+
+/* header-top */
+.header > .header-top {
+    background-color: #000000;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header > .header-top a {
+    display: block;
+}
+
+.header-top .header-top--normal-text {
+    color: #fff;
+    text-decoration: none;
+    text-align: center;
+    font-size: 12px;
+}
+
+.header-top > .logo {
+    height: 24px;
+    width: 141px;
+    display: block;
+}
+
+.border-col {
+    height: 40px;
+    width: 1px;
+    background-color: #252525;
+}
+
+.location-price {
+    font-size: 11px;
+}
+
+.location-price > .dropdown {
+    color: #ffe500;
+}
+
+.header-top > .search-bar {
+    background-color: #ffffff;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    border-radius: 4px;
+}
+
+.search-bar > .input {
+    height: 20px;
+    color: #000000;
+    outline: none;
+    border: none;
+}
+
+.search-bar > #button {
+    position: absolute;
+    right: 10px;
+    color: #000000;
+}
+
+.header-cart {
+    display: flex;
+    align-items: center;
+    border: 1px solid #8f8f8f;
+    border-radius: 4px;
+    padding: 5px 8px;
+    font-size: 12px;
+    line-height: 14px;
+}
+
+.header-cart > .icon-cart {
+    height: 100%;
+    width: 20px;
+
+}
+
+.header-top > .order-history {
+    width: 55px;
+    font-size: 12px;
+    line-height: 14px;
+}
+
+.header-top__hot {
+    width: 18%;
+}
+
+.header-top__list-top {
+    display: flex;
+    align-items: center;
+}
+
+.header-top--highlight-hover:hover {
+    color: #d6b600;
+}
+
+/* header-main */
+.header-main {
+    background-color: #fed100;
+    height: 43px;
+    display: flex;
+    align-items: stretch;
+}
+
+.header-main > .item-container a {
+    display: block;
+    text-align: center;
+    line-height: 43px;
+    padding: 0 8px;
+}
+
+.header-main > .item-container > .item {
+    text-decoration: none;
+    position: relative;
+}
+
+.header-main > .item-container:hover {
+    background-color: #fff;
+}
+
+.header-main  .item > i {
+    margin-right: 5px;
+}
+
+.header-main > .item-container > .item > .label-hot {
+    background-color: red;
+    font-size: 6px;
+    line-height: 7px;
+    position: absolute;
+    top: 10%;
+    left: 60%;
+}
+
+/* body */
+/* body-top */
+
+.body-top {
+    display: flex;
+    width: 378px;
+}
+
+.body-top  .tab-switch-container {
+    display: flex;
+    align-content: stretch;
+}
+
+.float-message {
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+}
+

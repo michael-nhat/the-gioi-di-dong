@@ -1,0 +1,41 @@
+How make button float on input field
+Solution 1:
+make container relative
+make insider absolute
+ok let's do it
+
+
+>> Rule: make it just work and fast, methodically
+
+Nhin vao day ta rut ra cai gi?
+
+Step first: write css selector, put class that very fast, then experiment with all of it
+Step second: find the similar, the same, the common share of all the pieces of code. Collect them in a share selector
+
+Do the first step fast first, then step second is posible!
+One: Fast >> Two: Shorter
+Three: Smarter >> Four: Complex
+
+Want fast as possible:
+- if it has a few elements: put only name unique
+- if it has multi elements with same specify, role. Put the parent nearest (in a same field)
+>> that is all!
+
+Which couldn't do?? Give it up, fuck it! Programming!
+
+
+Different between ID and CLASS:
+ID is uniqe
+>> ID choose js, selector FASTER than class
+ID higher prio than class in css cascade
+ID easyly work with Javascript
+
+
+What I couldn't do yet::
+- Tạo bố cục cả trang là một cột 12xx px, trong khi 3 dải header lại tràn ra full trang, chưa làm được
+
+next 9-aug:
+Make link a strech to item container! done
+Make all item click is link-a tag, also strech
+
+
